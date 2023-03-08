@@ -1,0 +1,175 @@
+/* colores
+Verde 86beb9
+azul 313173
+rosa d47d88
+*/
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+h1 {
+    color: #256D85;
+    font-family: 'Sacramento', cursiva;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: #256D85;
+    font-family: 'Cormorant', serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Libre Bodoni', serif;
+}
+
+/* Menú*/
+
+    .heading {
+        background-color: #e4f9f5;
+        padding: 20px 80px 20px 80px;
+        position: sticky;
+        top: -1px;
+        text-align: right;
+    }
+    
+    .heading>p {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .logotipo {
+        float: left;
+        height: 60px;
+        width: 60px;
+    }
+
+/*Inicio del primer contenedor*/
+
+    .contenedor-superior {
+        background-color: #e4f9f5;
+        padding-top: 50px;
+        position: relative;
+    }
+
+    .nube-superior {
+        position: absolute;
+        right: 400px;
+        top: 20px;
+    }
+
+    .nube-inferior {
+        position: absolute;
+        top: 300px;
+    }
+
+    .montañas {
+        height: 50%;
+        width: 50%;
+    }
+
+/*Termino del primer contenedor*/
+
+.linea {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #e4f9f5;
+    border-width: 10px;
+    width: 7%;
+}
+
+.intermedio-uno {
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.intermedio-dos {
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.intermedio-dos>p {
+    padding-bottom: 20px;
+}
+
+.diseño-web {
+    line-height: 2;
+    margin: 70px auto 100px auto;
+    text-align: left;
+}
+
+.desarrollador-web {
+    line-height: 2;
+    margin: 100px auto 150px auto;
+    text-align: left;
+}
+
+/*Imagenes del bloque*/
+
+.diseño {
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.desarrollo {
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+/*Fin de las imagenes del bloque*/
+
+.inferior {
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+footer { 
+    background-color: #e4f9f5;
+    color: #256D85;
+    padding: 40px;
+    font-size: 12px;
+    line-height: 2;
+}
+
+footer>a:link {
+    color: #256D85;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer>a:visited{
+    color: #256D85;
+    text-decoration: none;
+    padding: 10px;
+}
